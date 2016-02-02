@@ -1,0 +1,166 @@
+Dependencies for Project 'pandent', Target 'Target 1': (DO NOT MODIFY !)
+F (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.c)(0x5024ECE4)(-c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\CoreSupport -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\output\core_cm0.o --list_dir ".\\lsit\\" --list --omf_browse .\output\core_cm0.crf --depend .\output\core_cm0.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+F (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.c)(0x5024ECE4)(-c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\CoreSupport -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\output\system_m051series.o --list_dir ".\\lsit\\" --list --omf_browse .\output\system_m051series.crf --depend .\output\system_m051series.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7FD94)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.h)(0x52AF2C03)
+I (BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\SYS.h)(0x53F09B4E)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\ADC.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\EBI.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\FMC.h)(0x52DA7B19)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\GPIO.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\I2C.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\PWM.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\SPI.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\TIMER.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\UART.h)(0x5024ECE4)
+F (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\startup\arm\startup_M051Series.s)(0x5024ECE4)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include--list .\lsit\startup_m051series.lst --xref -o .\output\startup_m051series.o --depend .\output\startup_m051series.d)
+F (.\custerm.c)(0x5630A285)(-c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\CoreSupport -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\output\custerm.o --list_dir ".\\lsit\\" --list --omf_browse .\output\custerm.crf --depend .\output\custerm.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7FD94)
+I (lib.h)(0x56557D99)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.h)(0x52AF2C03)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\SYS.h)(0x53F09B4E)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\ADC.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\EBI.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\FMC.h)(0x52DA7B19)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\GPIO.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\I2C.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\PWM.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\SPI.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\TIMER.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\UART.h)(0x5024ECE4)
+I (pic_info.h)(0x504F0D6A)
+I (misc.h)(0x55E54F90)
+I (module.h)(0x54083F3A)
+I (Ext_var.h)(0x56542821)
+I (interrupt.h)(0x525E4C6A)
+I (udp.h)(0x540715C1)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7FD94)
+I (custerm.h)(0x562F44B9)
+F (.\interrupt.c)(0x56485468)(-c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\CoreSupport -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\output\interrupt.o --list_dir ".\\lsit\\" --list --omf_browse .\output\interrupt.crf --depend .\output\interrupt.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7FD94)
+I (ext_var.h)(0x56542821)
+I (lib.h)(0x56557D99)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.h)(0x52AF2C03)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\SYS.h)(0x53F09B4E)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\ADC.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\EBI.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\FMC.h)(0x52DA7B19)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\GPIO.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\I2C.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\PWM.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\SPI.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\TIMER.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\UART.h)(0x5024ECE4)
+I (pic_info.h)(0x504F0D6A)
+I (misc.h)(0x55E54F90)
+I (udp.h)(0x540715C1)
+F (.\main.c)(0x56557DD1)(-c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\CoreSupport -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\output\main.o --list_dir ".\\lsit\\" --list --omf_browse .\output\main.crf --depend .\output\main.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7FD94)
+I (lib.h)(0x56557D99)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.h)(0x52AF2C03)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\SYS.h)(0x53F09B4E)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\ADC.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\EBI.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\FMC.h)(0x52DA7B19)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\GPIO.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\I2C.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\PWM.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\SPI.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\TIMER.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\UART.h)(0x5024ECE4)
+I (pic_info.h)(0x504F0D6A)
+I (misc.h)(0x55E54F90)
+I (module.h)(0x54083F3A)
+I (udp.h)(0x540715C1)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7FD94)
+I (custerm.h)(0x562F44B9)
+I (gpio.h)(0x502A3852)
+F (.\misc.c)(0x565432F9)(-c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\CoreSupport -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\output\misc.o --list_dir ".\\lsit\\" --list --omf_browse .\output\misc.crf --depend .\output\misc.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7FD94)
+I (lib.h)(0x56557D99)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.h)(0x52AF2C03)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\SYS.h)(0x53F09B4E)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\ADC.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\EBI.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\FMC.h)(0x52DA7B19)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\GPIO.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\I2C.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\PWM.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\SPI.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\TIMER.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\UART.h)(0x5024ECE4)
+I (pic_info.h)(0x504F0D6A)
+I (misc.h)(0x55E54F90)
+I (module.h)(0x54083F3A)
+I (Ext_var.h)(0x56542821)
+I (interrupt.h)(0x525E4C6A)
+I (udp.h)(0x540715C1)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7FD94)
+I (custerm.h)(0x562F44B9)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7FD94)
+F (.\module.c)(0x56483C19)(-c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\CoreSupport -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\output\module.o --list_dir ".\\lsit\\" --list --omf_browse .\output\module.crf --depend .\output\module.d)
+I (ext_var.h)(0x56542821)
+I (lib.h)(0x56557D99)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.h)(0x52AF2C03)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\SYS.h)(0x53F09B4E)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\ADC.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\EBI.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\FMC.h)(0x52DA7B19)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\GPIO.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\I2C.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\PWM.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\SPI.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\TIMER.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\UART.h)(0x5024ECE4)
+I (pic_info.h)(0x504F0D6A)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7FD94)
+I (misc.h)(0x55E54F90)
+I (module.h)(0x54083F3A)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7FD94)
+I (udp.h)(0x540715C1)
+I (custerm.h)(0x562F44B9)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7FD94)
+F (.\udp.c)(0x54080B80)(-c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\CoreSupport -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\output\udp.o --list_dir ".\\lsit\\" --list --omf_browse .\output\udp.crf --depend .\output\udp.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7FD94)
+I (misc.h)(0x55E54F90)
+I (lib.h)(0x56557D99)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.h)(0x52AF2C03)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\SYS.h)(0x53F09B4E)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\ADC.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\EBI.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\FMC.h)(0x52DA7B19)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\GPIO.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\I2C.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\PWM.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\SPI.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\TIMER.h)(0x5024ECE4)
+I (.\BSP_Library\M051SeriesBSP_CMSIS_v2.01.002\LibM051Series\StdDriver\inc\UART.h)(0x5024ECE4)
+I (pic_info.h)(0x504F0D6A)
+I (module.h)(0x54083F3A)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7FD94)
+I (udp.h)(0x540715C1)
+I (ext_var.h)(0x56542821)
+I (custerm.h)(0x562F44B9)

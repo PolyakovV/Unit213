@@ -1,0 +1,27 @@
+*** Creating Trace Output File 'pandent.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"core_cm0.o"'
+### List of Objects: adding '"system_m051series.o"'
+### List of Objects: adding '"startup_m051series.o"'
+### List of Objects: adding '"custerm.o"'
+### List of Objects: adding '"interrupt.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"misc.o"'
+### List of Objects: adding '"module.o"'
+### List of Objects: adding '"udp.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 "core_cm0.o" "system_m051series.o" "startup_m051series.o" "custerm.o" "interrupt.o" "main.o" "misc.o" "module.o" "udp.o" --strict --scatter "pandent.sct" 
+--entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\pandent.map" -o "pandent.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'pandent.axf'
+### ADS-LD Command File: 'pandent.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'pandent.lnp', Handle=0x00000674
+### Writing '.lnp' file
+### ADS-LD Command file 'pandent.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

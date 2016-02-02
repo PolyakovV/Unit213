@@ -1,0 +1,5 @@
+---- GetCspiInfo Matches (4 in 3 files) ----
+Main.c (e:\pendant\code\src):				GetCspiInfo();
+Misc.c (e:\pendant\code\src):			GetCspiInfo();
+Misc.c (e:\pendant\code\src):void GetCspiInfo(void)
+Misc.h (e:\pendant\code\src):void GetCspiInfo(void);

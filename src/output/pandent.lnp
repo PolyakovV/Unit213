@@ -1,0 +1,15 @@
+--cpu Cortex-M0
+".\output\core_cm0.o"
+".\output\system_m051series.o"
+".\output\startup_m051series.o"
+".\output\custerm.o"
+".\output\interrupt.o"
+".\output\main.o"
+".\output\misc.o"
+".\output\module.o"
+".\output\udp.o"
+--strict --scatter ".\output\pandent.sct"
+
+--entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\lsit\pandent.map" -o .\output\pandent.axf

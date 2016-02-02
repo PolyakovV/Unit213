@@ -1,0 +1,18 @@
+Ver 0.29 based on 0.27
+
+Add -lock/unlock function
+  To lock - Press Help+BatCheck until led on(10s), after that press BatCheck button 3 times 
+	  -  must hear "Unit locked" 
+  To unlock - Help + BatCheck until hear "Unit unlock"(10s)
+
+ver 0.27 add Power off in 5 min for a test mode
+	Change  -  volume in LOOP TEST, 
+		   turn off echo canceler(only for LOOP TEST for production line test)
+
+Ver 0.26 based on 0.23  
+	1.  add  "9"DTMF  function  -   hang up and play message "Call ended"
+        2.  add  'ICCID' GET9999#ICCID# - send back ICCID number
+        3.  add  'BATTLOW'    command
+        4.  add  'BATTEMPTY'  command
+        5.  add  'LOWBATREP'  command
+        6.  add  'LOWBATDISC' command
