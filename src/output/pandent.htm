@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\output\pandent.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\output\pandent.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5.03 [Build 76]: Last Updated: Tue Feb 02 09:43:42 2016
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5.03 [Build 76]: Last Updated: Tue Feb 02 09:49:17 2016
 <BR><P>
 <H3>Maximum Stack Usage =        368 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -471,8 +471,8 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[aa]"></a>__aeabi_memcpy4</STRONG> (Thumb, 56 bytes, Stack size 0 bytes, rt_memcpy.o(.emb_text))
-<BR><BR>[Called By]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
-<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LogOnOff
+<BR><BR>[Called By]<UL><LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LogOnOff
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 </UL>
 
 <P><STRONG><a name="[195]"></a>__aeabi_memcpy8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, rt_memcpy.o(.emb_text), UNUSED)
@@ -645,12 +645,12 @@ Global Symbols
 <P><STRONG><a name="[90]"></a>InitDefault</STRONG> (Thumb, 216 bytes, Stack size 8 bytes, custerm.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = InitDefault &rArr; WritePage
 </UL>
-<BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
-<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcpy
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcpy
 <LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WritePage
 <LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ErasePage
 <LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_Write
 <LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
 </UL>
 <BR>[Called By]<UL><LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Custerm_Default
 <LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NvInit
@@ -801,14 +801,14 @@ Global Symbols
 <P><STRONG><a name="[a3]"></a>WriteLog</STRONG> (Thumb, 162 bytes, Stack size 144 bytes, custerm.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 232<LI>Call Chain = WriteLog &rArr; GetDateTime &rArr; GetString &rArr; __aeabi_memcpy
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcat
-<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
 <LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;debug_8
 <LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;debug
 <LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetDateTime
 <LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WriteOneLog
 <LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IsEmptyLog
 <LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ErasePage
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcat
 </UL>
 <BR>[Called By]<UL><LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SIAEventPacketCreate
 <LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LogOnOff
@@ -828,14 +828,14 @@ Global Symbols
 <P><STRONG><a name="[a9]"></a>LogOnOff</STRONG> (Thumb, 358 bytes, Stack size 56 bytes, custerm.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 288<LI>Call Chain = LogOnOff &rArr; WriteLog &rArr; GetDateTime &rArr; GetString &rArr; __aeabi_memcpy
 </UL>
-<BR>[Calls]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
-<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
 <LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcpy
 <LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;signal_quality
 <LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;debug
 <LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Dec2Txt
 <LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AddVoltageInfo
 <LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WriteLog
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
 </UL>
 <BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterPowerDown
 <LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCall
@@ -1003,12 +1003,12 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 208 + Unknown Stack Size
 <LI>Call Chain = Custerm_Fibro &rArr; PhoneNumberSet &rArr; SendAtWaitRsq &rArr; __c89vsnprintf &rArr; _printf_char_common &rArr; __printf
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
-<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strchr
+<BR>[Calls]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strchr
 <LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SmsRsqAdd
 <LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendDebugString
 <LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PhoneNumberSet
 <LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CustomError
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> misc.o(.constdata)
 </UL>
@@ -1604,9 +1604,9 @@ Global Symbols
 <P><STRONG><a name="[107]"></a>GetString</STRONG> (Thumb, 384 bytes, Stack size 40 bytes, misc.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = GetString &rArr; __aeabi_memcpy
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
-<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
 <LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strstr
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;QueryModuleSate
 <LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IsUnder3G
@@ -1695,10 +1695,10 @@ Global Symbols
 <P><STRONG><a name="[e4]"></a>GetCpsiInfo</STRONG> (Thumb, 526 bytes, Stack size 48 bytes, misc.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = GetCpsiInfo &rArr; GetString &rArr; __aeabi_memcpy
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcat
-<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcpy
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcpy
 <LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendAtCmdRsq
 <LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetString
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcat
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SecondHandle
 <LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -1744,12 +1744,12 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 176 + Unknown Stack Size
 <LI>Call Chain = SmsInit &rArr; SendAtWaitRsq &rArr; __c89vsnprintf &rArr; _printf_char_common &rArr; __printf
 </UL>
-<BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
-<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strchr
+<BR>[Calls]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strchr
 <LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendAtCmdRsq
 <LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Txt2Dec
 <LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;debug_8
 <LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendAtWaitRsq
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
 </UL>
 <BR>[Called By]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SmsHave
 <LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SecondHandle
@@ -1941,9 +1941,9 @@ Global Symbols
 <P><STRONG><a name="[126]"></a>findUdp</STRONG> (Thumb, 250 bytes, Stack size 96 bytes, misc.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = findUdp &rArr; __aeabi_memcpy
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
-<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
 <LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MsgHandle
 </UL>
@@ -2000,12 +2000,12 @@ Global Symbols
 <P><STRONG><a name="[12c]"></a>GetSmsContent</STRONG> (Thumb, 138 bytes, Stack size 24 bytes, misc.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = GetSmsContent &rArr; SendAtCommand2 &rArr; Dec2Txt
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
-<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendAtCommand2
+<BR>[Calls]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendAtCommand2
 <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ResetUartFlag
 <LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FeedWatchdog
 <LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;debug_8
 <LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;debug
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SmsHandle
 </UL>
@@ -2069,8 +2069,8 @@ Global Symbols
 <P><STRONG><a name="[af]"></a>SmsRsqAdd</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, misc.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = SmsRsqAdd &rArr; strlen
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcat
-<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcat
 </UL>
 <BR>[Called By]<UL><LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LogSendBySms
 <LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Custerm_Bat
@@ -2555,10 +2555,10 @@ Global Symbols
 <P><STRONG><a name="[11e]"></a>AccountGet</STRONG> (Thumb, 152 bytes, Stack size 16 bytes, module.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = AccountGet &rArr; module_WaitResponse &rArr; delay_ms
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
-<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strstr
+<BR>[Calls]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strstr
 <LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;module_WaitResponse
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendAtCommand
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AccSet
 <LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SecondHandle
@@ -2610,9 +2610,9 @@ Global Symbols
 <P><STRONG><a name="[13b]"></a>AccSet</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, udp.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = AccSet &rArr; AccountGet &rArr; module_WaitResponse &rArr; delay_ms
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
-<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AccountGet
+<BR>[Calls]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AccountGet
 <LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Str2Hexs
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UdpHeadInit
 </UL>
@@ -2633,8 +2633,8 @@ Global Symbols
 <P><STRONG><a name="[13d]"></a>SiaAcountSet</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, udp.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = SiaAcountSet &rArr; __aeabi_memcpy
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
-<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;XorCalcurate
+<BR>[Calls]<UL><LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;XorCalcurate
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SIAEventPacketCreate
 </UL>
@@ -2746,14 +2746,14 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 296 + Unknown Stack Size
 <LI>Call Chain = UdpHandle &rArr; SIAEventPacketCreate &rArr; WriteLog &rArr; GetDateTime &rArr; GetString &rArr; __aeabi_memcpy
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
-<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TypeNextUdp
+<BR>[Calls]<UL><LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TypeNextUdp
 <LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TXInitPacketCreate
 <LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSendSigalFlag
 <LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;checkPacketFormat
 <LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UdpSend
 <LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SIAEventPacketCreate
 <LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterStandby
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -2944,8 +2944,8 @@ Global Symbols
 <P><STRONG><a name="[152]"></a>_memset</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, rt_memclr.o(.text))
 <BR><BR>[Calls]<UL><LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_memset_w
 </UL>
-<BR>[Called By]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
-<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+<BR>[Called By]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
 </UL>
 
 <P><STRONG><a name="[129]"></a>__aeabi_memclr</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, rt_memclr.o(.text))

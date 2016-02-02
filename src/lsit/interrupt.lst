@@ -20520,7 +20520,7 @@ N#define MAX_CALL_STEP3		9
 N
 N#define CNT_PER_SEC		20
 N
-N#define VERSION		"0.29"
+N#define VERSION		"0.29" // version
 N
 Ntypedef unsigned char u8;
 Ntypedef unsigned short u16;

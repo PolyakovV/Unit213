@@ -124,7 +124,7 @@
 
 #define CNT_PER_SEC		20
 
-#define VERSION		"0.29"
+#define VERSION		"0.29" // version
 
 typedef unsigned char u8;
 typedef unsigned short u16;
